@@ -1,10 +1,16 @@
 import './App.css';
-import ProjectList from './ProjectList';
+import Fingerprint from './Fingerprint';
+import BookList from './ProjectList';
+import CookieConsent from 'react-cookie-consent';
 
 function App() {
   return (
     <>
-      <ProjectList />
+      <BookList />
+      <CookieConsent>
+        This website uses cookies to enhance the user experience.
+      </CookieConsent>
+      <Fingerprint />
     </>
   );
 }
