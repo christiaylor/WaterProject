@@ -13,7 +13,7 @@ function CategoryFilter({
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const url = 'https://localhost:5000/api/Water/GetProjectTypes'
+        const url = 'https://waterproject-taylor-backend.azurewebsites.net/api/Water/GetProjectTypes'
         const response = await fetch(
           url
         );
